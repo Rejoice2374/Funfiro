@@ -260,6 +260,15 @@ nav {
   opacity: 72%;
 }
 
-.popup:hover {
-  display: flex;
+.more {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: 2px solid #b88e2f;
+  border-radius: 8px;
+}
+
+.more a {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
 }
