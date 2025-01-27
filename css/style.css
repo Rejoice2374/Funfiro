@@ -272,3 +272,44 @@ nav {
   font-family: "Poppins";
   font-weight: 400;
 }
+
+footer {
+  display: flex;
+  font-family: "Poppins";
+  gap: 40px;
+  justify-content: center;
+  border-top: 1px solid #898989;
+}
+
+.footer_items {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer_items h3 {
+  font-size: 24px;
+}
+
+.footer_items h6 {
+  font-size: 20px;
+  color: #898989;
+}
+
+.footer_items p {
+  font-size: 18px;
+  color: #898989;
+}
+
+.footer_items li {
+  font-size: 18px;
+}
+
+.foot_list {
+  line-height: 3.8;
+}
+
+/* .newsletter {
+  display: flex;
+} */
