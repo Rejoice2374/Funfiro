@@ -249,34 +249,79 @@ nav {
   color: #ffffff;
 }
 
-.popup {
+.shield {
   display: none;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   z-index: 1;
   top: 0;
   width: 285px;
   height: 446px;
-  background-color: #3a3a3a;
-  opacity: 72%;
+  background-color: rgba(20, 30, 30, 0.7);
+}
+
+.popup a {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  padding: 8px 64px;
+  background: #ffffff;
+  color: #b88e2f;
+}
+
+.popup .options {
+  display: flex;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.popup .options p {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.popup .options i {
+  margin-right: 8px;
+}
+
+.item:hover .shield {
+  display: block;
 }
 
 .more {
   margin: 20px 0;
-  padding: 10px 20px;
+  padding: 10px 48px;
   border: 2px solid #b88e2f;
   border-radius: 8px;
 }
 
 .more a {
   font-size: 20px;
+  color: #b88e2f;
   font-family: "Poppins";
   font-weight: 400;
 }
 
+.more:hover {
+  background: #b88e2f;
+  border: 2px solid #fff;
+}
+
+.more:hover a {
+  color: #fff;
+}
+
 footer {
   display: flex;
+  flex-wrap: wrap;
   font-family: "Poppins";
-  gap: 40px;
+  gap: 36px;
   justify-content: center;
   border-top: 1px solid #898989;
 }
@@ -293,7 +338,8 @@ footer {
 }
 
 .footer_items h6 {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 400;
   color: #898989;
 }
 
@@ -310,6 +356,23 @@ footer {
   line-height: 3.8;
 }
 
-/* .newsletter {
-  display: flex;
-} */
+.newsletter input {
+  font-size: 16px;
+  color: #898989;
+  border: none;
+  border-bottom: 1px solid #333333;
+}
+
+.newsletter a {
+  font-family: "Poppins";
+  color: #898989;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #333333;
+  margin-left: 10px;
+}
+
+.newsletter a:hover {
+  color: #b88e2f;
+  border: none;
+}
