@@ -244,6 +244,10 @@ nav {
   border-radius: 50%;
 }
 
+.discount.new {
+  background: #2ec1ac;
+}
+
 .discount p {
   font-weight: 400;
   color: #ffffff;
@@ -267,10 +271,10 @@ nav {
 }
 
 .popup a {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Poppins";
-  font-weight: 400;
-  padding: 8px 64px;
+  font-weight: 600;
+  padding: 12px 55px;
   background: #ffffff;
   color: #b88e2f;
 }
