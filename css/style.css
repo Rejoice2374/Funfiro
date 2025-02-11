@@ -253,6 +253,7 @@ nav {
   color: #ffffff;
 }
 
+/* PRODUCT HOVER CLASS */
 .shield {
   display: none;
 }
@@ -266,7 +267,7 @@ nav {
   z-index: 1;
   top: 0;
   width: 285px;
-  height: 446px;
+  height: 100%;
   background-color: rgba(20, 30, 30, 0.7);
 }
 
@@ -321,6 +322,7 @@ nav {
   color: #fff;
 }
 
+/* FOOTER */
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -379,4 +381,14 @@ footer {
 .newsletter a:hover {
   color: #b88e2f;
   border: none;
+}
+
+/* SHOP CSS */
+
+/* NEXT OPTIONS */
+.next {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  justify-content: center;
+  align-items: center;
 }
