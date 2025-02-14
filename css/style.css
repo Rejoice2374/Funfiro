@@ -387,8 +387,53 @@ footer {
 
 /* NEXT OPTIONS */
 .next {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 2fr;
+  display: flex;
+  margin-top: 16px;
   justify-content: center;
   align-items: center;
+  gap: 8px;
+}
+
+.next a {
+  background-color: #f9f1e7;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 8px;
+  /* font-size: 20px; */
+  font-weight: 400;
+  color: #000000;
+}
+
+.values {
+  background: #f9f1e7;
+  margin-top: 16px;
+}
+
+.values__container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.value {
+  display: flex;
+  gap: 8px;
+}
+
+.value h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #242424;
+}
+
+.value p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #898989;
+}
+
+.value img {
+  width: 60px;
 }
