@@ -385,6 +385,20 @@ footer {
 
 /* SHOP CSS */
 
+/* SHOP HERO */
+.shop_hero {
+  height: 316px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/shopbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  gap: 16px;
+}
+
 /* NEXT OPTIONS */
 .next {
   display: flex;
@@ -404,6 +418,7 @@ footer {
   color: #000000;
 }
 
+/* SHOP VALUES */
 .values {
   background: #f9f1e7;
   margin-top: 16px;
