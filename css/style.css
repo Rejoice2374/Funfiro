@@ -402,6 +402,30 @@ footer {
 /* SEARCH BAR */
 .search__flex {
   background: #f9f1e7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+}
+
+.filterss {
+  display: flex;
+}
+
+.filter {
+  display: flex;
+}
+
+.sortss {
+  display: flex;
+}
+
+.display {
+  display: flex;
+}
+
+.sort {
+  display: flex;
 }
 
 /* NEXT OPTIONS */
@@ -456,4 +480,11 @@ footer {
 
 .value img {
   width: 60px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
