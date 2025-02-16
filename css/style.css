@@ -399,6 +399,11 @@ footer {
   gap: 16px;
 }
 
+/* SEARCH BAR */
+.search__flex {
+  background: #f9f1e7;
+}
+
 /* NEXT OPTIONS */
 .next {
   display: flex;
