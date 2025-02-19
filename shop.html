@@ -603,6 +603,19 @@
       </div>
     </footer>
 
+    <script src="https://unpkg.com/@jup-ter/jupiter-terminal@latest/dist/jupiter-terminal.min.js"></script>
+    <script>
+      const terminal = new JupiterTerminal({
+        // Your API key
+        apiKey: "YOUR_API_KEY",
+        // Your API secret
+        apiSecret: "YOUR_API_SECRET",
+        // Your Solana wallet
+        wallet: "YOUR_SOLANA_WALLET",
+      });
+      terminal.init();
+    </script>
+
     <script src="script.js"></script>
   </body>
 </html>
