@@ -81,7 +81,7 @@
       </div>
     </div>
 
-    <section class="products__category">
+    <section class="products__category" id="data-container">
       <div class="products">
         <div class="product">
           <div class="item">
@@ -523,11 +523,14 @@
         </div>
       </div>
 
-      <div class="next">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#" class="nxt">Next</a>
+      <div class="next" id="pagination">
+        <a href="#" id="prev">Previous</a>
+        <a href="#" class="page-link" data-page="1">1</a>
+        <a href="#" class="page-link" data-page="2">2</a>
+        <a href="#" class="page-link" data-page="3">3</a>
+        <a href="#" class="page-link" data-page="4">4</a>
+        <a href="#" id="next">Next</a>
+        <!-- <p id="page-number"></p> -->
       </div>
     </section>
 
@@ -602,19 +605,6 @@
         </div>
       </div>
     </footer>
-
-    <script src="https://unpkg.com/@jup-ter/jupiter-terminal@latest/dist/jupiter-terminal.min.js"></script>
-    <script>
-      const terminal = new JupiterTerminal({
-        // Your API key
-        apiKey: "YOUR_API_KEY",
-        // Your API secret
-        apiSecret: "YOUR_API_SECRET",
-        // Your Solana wallet
-        wallet: "YOUR_SOLANA_WALLET",
-      });
-      terminal.init();
-    </script>
 
     <script src="script.js"></script>
   </body>

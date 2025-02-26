@@ -297,6 +297,7 @@ nav {
 
 .item:hover .shield {
   display: block;
+  transition: 200ms ease;
 }
 
 .more {
@@ -464,21 +465,27 @@ select {
 
 /* NEXT OPTIONS */
 .next {
-  display: flex;
   margin-top: 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  text-align: center;
 }
 
 .next a {
   background-color: #f9f1e7;
   padding: 10px 20px;
-  text-align: center;
   border-radius: 8px;
-  /* font-size: 20px; */
   font-weight: 400;
+  margin: 0 8px;
   color: #000000;
+}
+
+.next .active {
+  background-color: #b88e2f;
+  color: #ffffff;
+}
+
+#page-number {
+  margin-top: 20px;
+  font-size: 16px;
 }
 
 /* SHOP VALUES */
